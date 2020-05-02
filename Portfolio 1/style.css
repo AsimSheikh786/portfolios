@@ -1,0 +1,200 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f8fa;
+}
+
+.orange{
+    color: #e8491d;
+}
+
+.one{
+    background-color: #35424a;
+    color: #ffffff;
+    border-bottom: #e8491d 3px solid;
+}
+
+.one h1,ul{
+    margin: 0;
+}
+
+.one .home{
+    color: #e8491d;
+}
+
+.one li{
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.one a{
+    text-decoration: none;
+    color: white;
+}
+
+.one li:hover{
+    background-color: #e8491d;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.one .home:hover{
+    color: white;
+}
+
+@media screen and (min-width: 750px){
+    .one{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .one h1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .one ul{
+        padding-top: 35px;
+    }
+
+    .one li{
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .one{
+        text-align: center;
+    }
+
+    .one h1{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .one ul{
+        padding-bottom: 10px;
+    }
+
+    .one .one1{
+        padding-top: 0.02px;
+    }
+
+    .one li{
+        padding: 0 10px 0 10px;
+        position: relative;
+        right: 20px;
+        font-size: 14px;
+    }
+}
+
+.two{
+    background-image: url('img/backgrounds.jpg');
+    color: white;
+    text-align: center;
+}
+
+.two p{
+    color: gainsboro;
+}
+
+@media screen and (min-width: 750px){
+    .two{
+        background-size: cover;
+        background-position: 0px -170px;
+        min-height: 400px;
+        max-height: 450px;
+    }
+    
+    .two h1{
+        margin: 0;
+        padding-top: 150px;
+    }
+
+    .two h1{
+        font-size: 40px;
+    }
+
+    .two p{
+        font-size: 23px;
+    }
+
+    .two h1,p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .two{
+        background-size: cover;
+        min-height: 230px;
+    }
+
+    .two h1{
+        margin: 0;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .two h1,p{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .two p{
+        text-align: justify;
+    }
+}
+
+.three{
+    background-color: #35424a;
+    color: white;
+}
+
+.three h2{
+    margin: 0;
+}
+
+.three button{
+    background-color: #e8491d;
+    color: white;
+    border-color: #e8491d;
+    cursor: pointer;
+}
+
+.three input{
+    padding: 5px;
+    border-color: #35424a;
+}
+
+@media screen and (min-width: 750px){
+    .three{
+        display: flex;
+        justify-content: space-around;
+        min-height: 45px;
+        padding-top: 20px;
+    }
+
+    .three button{
+        padding: 5px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .three h2{
+        font-size: 20px;
+        padding-top: 5px;
+        margin-left: 12px;
+    }
+
+    .three .three2{
+        text-align: right;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+}
