@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 235, 217);
+}
+
+.top{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* FROM HEADER TO BEFORE ABOUT */
+
+@media only screen and (min-width: 769px){
+    .header{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(15, 3, 3);
+        border-bottom: rgb(255, 102, 0) solid 4px;
+    }
+    
+    .header .logo img{
+        width: 200px;
+    }
+
+    .header .nav ul{
+        list-style-type: none;
+        text-align: center;
+        margin-top: 10px
+    }
+
+    .header .nav li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .header .nav li{
+        display: inline-block;
+        padding: 0 15px 0 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .header .nav li:hover{
+        background-color: rgb(255, 102, 0);
+        padding: 10px;
+        border-radius: 5px;
+        transition: .7s;
+    }
+
+    .header .nav img{
+        width: 25px;
+    }
+
+
+    .container{
+        display: flex;
+    }
+
+    .container .section{
+        background-color: rgb(15, 3, 3);
+        flex: 1;
+        text-align: center;
+    }
+
+    .container .section .adds img{
+        width: 270px;
+        position: relative;
+        top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container .section .news{
+        border: rgb(255, 102, 0) solid 2px;
+        margin: 10px;
+    }
+
+    .container .section .news h1{
+        color: rgb(255, 102, 0);
+        margin: 0;
+    }
+
+    .container .section .news p{
+        color: gray;
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .container .main{
+        flex: 3;
+        text-align: center;
+    }
+
+    .container .main .abc ul{
+        margin: 20px;
+    }
+
+    .container .main .abc li{
+        border: royalblue solid 1px;
+        width: 20px;
+        height: 20px;
+        color: white;
+        background-color: royalblue;
+        font-weight: bold;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 2px 0 2px;
+    }
+
+    .container .main .card{
+        width: 250px;
+        height: 350px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px gray;
+        display: inline-block;
+        margin: 10px;
+
+    }
+
+    .container .main .text{
+        text-align: center;
+    }
+
+    .container .main .text h3{
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .container .main .image img{
+        width: 100%;
+    }
+
+    .container .main .button{
+        text-align: center;
+    }
+
+    .container .main .button button{
+        color: royalblue;
+        border-color: royalblue;
+        text-decoration: none;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 3px;
+        background: transparent;
+    }
+
+    .container .main .button button:hover{
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 15px;
+        background-color: royalblue;
+        transition: 1s;
+    }
+}
+
+/* FROM ABOUT TO ..... */
+
+@media only screen and (min-width: 769px){
+    .container .main h1{
+        margin: 0;
+        color: rgb(255, 102, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .container .main .about p{
+        margin: 0;
+        color: gray;
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
