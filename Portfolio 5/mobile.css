@@ -34,7 +34,7 @@
     .header li{
         font-weight: bold;
         cursor: pointer;
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 10px;
         padding-bottom: 10px;
     }
@@ -57,7 +57,7 @@
     .section1{
         float: right;
         position: relative;
-        top: 190px;
+        top: 175px;
         padding-right: 20px;
         
     }
@@ -227,16 +227,56 @@
         width: 15px;
     }
 
-    .contact .contact3{
+    .contact .contact2{
         padding-top: 20px;
     }
     
-    .contact .contact3 img{
+    .contact .contact2 img{
         width: 24px;
         padding: 7px;
         background-color: rgb(49,109,195);
         margin: 5px;
         border-radius: 20px;
         cursor: pointer;
+    }
+
+    .contact .contact2 .drimbbble img{
+        background: none !important;
+        width: 34px;
+        position: relative;
+        top: 5px;
+    }
+
+    .contact .contact3 fieldset{
+        border: 2px solid;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 70%;
+    }
+
+    .contact .contact3 legend{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .contact .contact3 input{
+        padding: 4px;
+        width: 200px;
+    }
+
+    .contact .contact3 .submit{
+        background-color: rgb(214, 21, 31);
+        color: white;
+        width: 75px;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    .contact .contact3 textarea{
+        padding: 5px;
     }
 }
