@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------For Desktop----------------------------- */
+/* -------------------------For Desktop----------------------------- */
+
+@media only screen and (min-width: 769px){
+    body{
+        background-image: url(img/background\ 1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .header h3{
+        color: white;
+        margin-top: 10px;
+    }
+
+    .header ul{
+        list-style-type: none;
+    }
+
+    .header li{
+        display: inline-block;
+        padding: 0 25px;
+        border: rgb(246,245,250) 1px solid;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .header li:hover{
+        border: rgb(115,105,250) 1px solid;
+        cursor: pointer;
+        color: rgb(115,105,250);
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 1s;
+    }
+
+    .section{
+        position: relative;
+        top: 250px;
+        margin-left: 60px;
+    }
+
+    .section h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: rgb(10,0,89);
+    }
+
+    .section p{
+        color: rgb(10,0,89);
+        padding-top: 5px;
+    }
+
+    .section img{
+        width: 22px;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+
+    .section .fb{
+        position: relative;
+        top: 5px;
+    }
+
+    .section .youtube{
+        width: 30px;
+    }
+
+    .section button{
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(115,105,250);
+        color: white;
+        cursor: pointer;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        color: rgb(115,105,250);
+    }
+}
+
+/* -------------------------For Mobile----------------------------- */
+/* -------------------------For Mobile----------------------------- */
+
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url(img/mobile\ back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header h3{
+        font-size: 27px;
+        color: rgb(34, 21, 131);
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .header li{
+        text-align: center;
+        padding-top: 9px;
+        font-size: 17px;
+        color: rgb(34, 21, 131);
+    }
+
+    .header li:hover{
+        color: rgb(115,105,250);
+        border-bottom: rgb(115,105,250) 1px solid;
+    }
+
+    .section{
+        position: relative;
+        top: 160px;
+        margin-left: 20px;
+    }
+
+    .section h1{
+        margin-bottom: 20px;
+        color: rgb(10,0,89);
+    }
+
+    .section p{
+        color: rgb(10,0,89);
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    .section img{
+        width: 20px;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+
+    .section .fb{
+        position: relative;
+        top: 5px;
+    }
+
+    .section .youtube{
+        width: 30px;
+    }
+
+    .section button{
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(115,105,250);
+        color: white;
+        cursor: pointer;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        color: rgb(115,105,250);
+        font-size: 12px;
+    }
+}
