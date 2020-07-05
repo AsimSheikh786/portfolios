@@ -1,0 +1,257 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.show{
+    display: block;
+}
+
+.dontShow{
+    display: none;
+}
+
+.show1{
+    display: block;
+}
+
+.dontShow1{
+    display: none;
+}
+
+.show2{
+    display: block;
+}
+
+.dontShow2{
+    display: none;
+}
+
+@media only screen and (min-width: 769px){
+    body {
+        display: flex;
+
+    }
+
+    .slideOff{
+        display: none;
+    }
+
+    .slideOn{
+        width: 20%;
+        height: 100%;
+        background-color: rgb(236, 236, 253);
+        color: gray;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .slideOn ul{
+        list-style-type: none;
+    }
+
+    .slideOn li{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        cursor: pointer;
+        padding-left: 20px;
+    }
+
+    .slideOn li:hover{
+        border-bottom: gray 1px solid;
+        font-size: 1.1em;
+    }
+
+    .slideOn .x{
+        display: none;
+    }
+
+    .section2{
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(1, 1, 100);
+        color: white;
+        height: 60px;
+        padding-top: 30px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 30px;
+        padding-left: 40px;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .toggle2 {
+        display: none;
+    }
+
+    /* .nav {
+        padding-right: 40px;
+    } */
+
+    .nav ul {
+        list-style-type: none;
+    }
+
+    .nav ul li {
+        float: left;
+        padding: 0 20px;
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav li:hover {
+        border: white solid 1px;
+    }
+
+    .search2{
+        display: flex;
+        background-color: rgb(1, 1, 100);
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+
+    .search2 img{
+        width: 20px;
+        padding: 5px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .search2 .searchText{
+        margin-right: 15px;
+        margin-top: 2px;
+    }
+
+    .search2 input{
+        padding: 5px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif !important;
+        border-radius: 20px;
+        background-color: gainsboro;
+        font-size: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .main {
+        background-color: rgb(1, 1, 100);
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .slideOff{
+        display: none;
+    }
+
+    .slideOn a {
+        text-decoration: none;
+        color: gray;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    .slideOn{
+        background-color: rgb(236, 236, 253);
+        color: gray;
+        text-align: center;
+    }
+
+    .slideOn li{
+        padding-top: 10px;
+        border-bottom: gray 1px solid;
+        padding-bottom: 5px;
+    }
+
+    .sub {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        width: 100px;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .toggle img{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .toggle {
+        padding-right: 20px;
+    }
+
+    .nav {
+        display: none;
+        
+        /* padding-bottom: 20px; */
+    }
+
+    .nav2 {
+        /* display: none; */
+        padding-top: 10px;
+    }
+
+    .nav2 ul {
+        list-style-type: none;
+    }
+
+    .nav2 li {
+        cursor: pointer;
+        padding: 15px;
+        border-bottom: white 1px solid;
+    }
+
+    .toggle2 {
+        display: none;
+    }
+
+    .search{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(1, 1, 100);
+        padding-right: 130px;
+        padding-left: 130px;
+    }
+
+    .search img {
+        width: 20px;
+        margin-left: 15px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .search input{
+        padding: 7px;
+        border-radius: 20px;
+        border: none;
+        font-size: 1em;
+    }
+
+    .search2{
+        display: none;
+    }
+}

@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header img{
+    width: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.header{
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header .email{
+    width: 13px;
+}
+
+.header button{
+    padding: 6px;
+    border: none;
+    background-color: #8a1f1d;
+    color: white;
+    cursor: pointer;
+}
+
+.header1{
+    padding-top: 7px;
+}
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #474546;
+}
+
+.navHeader .logo img{
+    width: 130px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+}
+
+.navHeader .nav{
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.navHeader .nav ul{
+    list-style-type: none;
+}
+
+.navHeader li{
+    display: inline-block;
+    padding: 0 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(189, 189, 189);
+}
+
+.navHeader li:hover {
+    border: white 1px solid;
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+}
+
+.backImage{
+    width: 100%;
+}
+
+.backImage img{
+    width: 100%;
+    height: 470px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Toggle</title>
+</head>
+
+<body onresize="navBar2()">
+
+    <div class="slideOff" id="health">
+        <ul>
+            <li class="x"> <a href="">X</a> </li>
+            <li>Skin Care</li>
+            <li>Hair Care</li>
+            <li>Makeup</li>
+            <li>Foot, Hand & Nail Care</li>
+            <li>Tools & Accessories</li>
+            <li>Shave & Hair Removal</li>
+        </ul>
+    </div>
+    <div class="slideOff" id="fashion">
+        <ul>
+            <li class="x"> <a href="">X</a> </li>
+            <li>Men's Fashion</li>
+            <li>Women's Fashion</li>
+            <li>Boy's Fashion</li>
+            <li>Girl's Fashion</li>
+            <li>Bride's Fashion</li>
+            <li>Groom's Fashion</li>
+        </ul>
+    </div> 
+    <div class="slideOff" id="baby">
+        <ul>
+            <li class="x"> <a href="">X</a> </li>
+            <li>Baby's Fashion</li>
+            <li>Activity & Entertainment</li>
+            <li>Baby Care</li>
+            <li>Baby Accessories</li>
+            <li>Baby Toys</li>
+        </ul>
+    </div> <!-- Section 1 close -->
+
+    <div class="section2">
+
+        <div class="main">
+
+            <div class="sub">
+                <div class="logo">
+                    <img src="images/asim.png" alt="">
+                </div>
+
+                <div class="toggle" id="tog" onclick="navBar()">
+                    <img src="images/togglr.png" alt="">
+                </div>
+                <div class="toggle2" id="tog2" onclick="navBar2()">
+                    <img src="images/togglr.png" alt="">
+                </div>
+            </div>
+
+            <div class="nav" id="nav">
+                <ul>
+                    <li class="show" id="show" onclick="health()">Health & Beauty</li>
+                    <li class="dontShow" id="dontShow" onclick="hide1()">Health & Beauty</li>
+                    <li class="show1" id="show1" onclick="fashion()">Fashion</li>
+                    <li class="dontShow1" id="dontShow1" onclick="hide2()">Fashion</li>
+                    <li class="show2" id="show2" onclick="baby()">Baby</li>
+                    <li class="dontShow2" id="dontShow2" onclick="hide3()">Baby</li>
+                    <li>Electronics</li>
+                    <li>Computers</li>
+                    <li>Sports</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="search2" id="search">
+            <div class="searchText">
+                <input type="text">
+            </div>
+            <div class="searchImg">
+                <img src="images/search.png" alt="Search Logo">
+            </div>
+        </div>
+
+    </div> <!-- Section 2 close -->
+
+</body>
+<script src="app.js"></script>
+
+</html>
